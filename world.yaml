@@ -10,10 +10,10 @@ precedence: [LSFT, LALT, RALT, LCTL, RCTL, RSFT, LCTL_RSFT, RCTL_RSFT] # latter 
 #
 transforms:
   I: { base: acute,   LCTL: diaeresis, RCTL: circumflex, RSFT: grave                                                                         }
-  E: { base: acute,   LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: oe,      RALT: ae,     LCTL_RSFT: oe,       RCTL_RSFT: ae      }
-  A: { base: acute,   LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: ring,   LCTL_RSFT: tilde,    RCTL_RSFT: ring    }
+  E: { base: ae,      LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: oe,      RALT: acute,  LCTL_RSFT: oe,       RCTL_RSFT: ae      }
+  A: { base: ring,    LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: acute,   LCTL_RSFT: tilde,    RCTL_RSFT: ring   }
   Y: { base: acute,   LCTL: diaeresis                                                                                                        }
-  O: { base: acute,   LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: slash,  LCTL_RSFT: tilde,    RCTL_RSFT: slash   }
+  O: { base: slash,   LCTL: diaeresis, RCTL: circumflex, RSFT: grave,   LALT: tilde,   RALT: acute,  LCTL_RSFT: tilde,    RCTL_RSFT: slash   }
   U: { base: acute,   LCTL: diaeresis, RCTL: circumflex, RSFT: grave                                                                         }
   consonants:
      { base: cedilla, LCTL: eszett,    RCTL: ntilde,     RSFT: micro                                                                         }
